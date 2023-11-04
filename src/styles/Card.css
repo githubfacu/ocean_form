@@ -3,8 +3,9 @@
     flex-direction: column;
     align-self: center;
     background-color:aliceblue;
-    width: 300px;
-    margin-top: 2rem;
+    width: 19rem;
+    margin-top: 1.5rem;
+    color: rgb(7, 36, 51);
 }
 
 .card h3{

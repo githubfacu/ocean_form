@@ -16,12 +16,12 @@ function App() {
     const oceans = ['atlantico', 'pacifico', 'indico', 'artico', 'antartico']
     if(oceans.filter(ocean => ocean == params)== params){
       return true
-    }  
+    }
   }
 
   const handleSumbit = (event) => {
     event.preventDefault()
-    if(user.nombre.length > 1 && filtro(user.oceano.toLowerCase())){
+    if(user.nombre.length > 1 && user.oceano && filtro(user.oceano.toLowerCase())){
         setShow(true)
         setError(false)
     } else {
