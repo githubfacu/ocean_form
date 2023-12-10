@@ -29,9 +29,9 @@ function App() {
   const nombre = useInput('text', setShow)
   const oceano = useInput('text', setShow)
 
-
   return (
     <div className='App'>
+      <div className='opacidad'></div>
       <h1>Ocean</h1>
       <form onSubmit={handleSumbit}>
         <label>Nombre</label>
